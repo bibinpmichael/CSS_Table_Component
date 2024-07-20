@@ -1,0 +1,51 @@
+/* CSS reset to remove default margins, padding, and use border-box sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set default font family, color, and center content */
+  body {
+    font-family: 'Inter', sans-serif;
+    color: #343a40;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style the table */
+  table {
+    font-size: 18px;
+    width: 800px;
+    margin-top: 100px;
+    /* Collapse borders to avoid double borders */
+    border-collapse: collapse;
+  }
+  
+  /* Style table cells */
+  th, 
+  td {
+    padding: 16px 24px;
+    text-align: left;
+  }
+  
+  /* Set width for header cells */
+  thead th{
+    width: 25%;
+  }
+  
+  /* Style table header */
+  thead tr{
+    background-color: #087f5b;
+    color: white;
+  }
+  
+  /* Alternate row background colors */
+  tbody tr:nth-child(odd){
+    background-color: #f8f9fa;
+  }
+  
+  tbody tr:nth-child(even){
+    background-color: #e9ecef;
+  }
