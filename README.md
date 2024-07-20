@@ -10,6 +10,10 @@ This is a simple HTML and CSS project that demonstrates how to create a responsi
 - Alternating row background colors to improve readability
 - Fixed table header when scrolling
 
+## Live Preview
+
+You can visit the site at https://css-table-component.netlify.app/
+
 ## Usage
 
 To use this table component in your project:
